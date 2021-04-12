@@ -8,8 +8,6 @@
 
 import SwiftUI
 import AVFoundation
-import CoreImage.CIFilterBuiltins
-
 
 extension AVCaptureDevice.Position: CaseIterable {
     public static var allCases: [AVCaptureDevice.Position] {
